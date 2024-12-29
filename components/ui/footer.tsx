@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-12 border-t relative z-10 bg-background/80 backdrop-blur-sm">
+    <footer className="w-full py-12 border-t relative z-10 bg-background/80 backdrop-blur-sm px-2">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
@@ -60,7 +60,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/categories"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
@@ -69,7 +69,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/authors"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/resources"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
@@ -94,7 +94,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/newsletter"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-accent"></span>
@@ -103,7 +103,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/events"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-accent"></span>
@@ -112,7 +112,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/contribute"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-accent"></span>
@@ -121,7 +121,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/faq"
+                  href="/"
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-accent"></span>

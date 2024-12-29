@@ -25,6 +25,13 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
+        <Link
+            href="/"
+            className="text-gray-300 hover:text-gray-100 group relative transition-colors"
+          >
+            Home
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-100 transition-all group-hover:w-full group-hover:h-0.5"></span>
+          </Link>
           <Link
             href="/blog"
             className="text-gray-300 hover:text-gray-100 group relative transition-colors"
@@ -62,6 +69,12 @@ export function Navbar() {
           <SheetContent side="right" className="bg-gray-900">
             <SheetHeader />
             <nav className="mt-6 flex flex-col space-y-4 text-lg text-gray-300">
+            <Link
+                href="/"
+                className="hover:text-gray-100 transition-colors"
+              >
+                Home
+              </Link>
               <Link
                 href="/blog"
                 className="hover:text-gray-100 transition-colors"

@@ -3,7 +3,7 @@ import { BookOpen, Users, Zap } from "lucide-react";
 
 export default function AboutPage() {
   return (
-    <div className="container py-10">
+    <div className="container py-10 px-8">
       <div className="mx-auto max-w-4xl space-y-12">
         {/* Header Section */}
         <div className="space-y-4 text-center">
