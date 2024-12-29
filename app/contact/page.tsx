@@ -30,7 +30,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="container py-10">
+    <div className="container py-10 px-10">
       <div className="mx-auto max-w-2xl space-y-8">
         <div className="space-y-4 text-center">
           <h1 className="text-4xl font-bold">Contact Us</h1>

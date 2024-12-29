@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import Image from "next/image";
 
 const posts = [
   {
@@ -61,7 +62,7 @@ const posts = [
 
 const BlogPage: React.FC = () => {
   return (
-    <div className="animated-bg min-h-screen">
+    <div className="animated-bg min-h-screen px-8">
       <div className="container py-10">
         <div className="relative mb-12 text-center">
           <h1 className="text-gradient text-4xl font-bold mb-4">Featured Articles</h1>
@@ -80,7 +81,9 @@ const BlogPage: React.FC = () => {
             <Link key={post.id} href={`/blog/${post.id}`}>
               <Card className="card-hover group h-full overflow-hidden border-lg bg-accent/5 backdrop-blur-sm">
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <Image
+                  width={800}
+                  height={500}
                     src={post.image}
                     alt={post.title}
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
